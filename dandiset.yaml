@@ -20,7 +20,7 @@ contributor:
   - dcite:ContactPerson
   schemaKey: Person
 dateCreated: '2024-01-09T20:32:27.801335+00:00'
-datePublished: '2024-01-14T20:08:50.707189+00:00'
+datePublished: '2024-01-14T22:01:50.604215+00:00'
 description: "Dataset of 38 worms from 'Brain-wide representations of behavior spanning
   multiple timescales and states in C. elegans'. Each NWB file contains the NIR bright-field
   images, GCaMP images, and NeuroPAL structural images, ROI locations and IDs, labeled
@@ -35,13 +35,13 @@ manifestLocation:
 name: Brain-wide representations of behavior spanning multiple timescales and states
   in C. elegans
 publishedBy:
-  endDate: '2024-01-14T20:08:50.707189+00:00'
-  id: urn:uuid:02fbecd3-c0c3-4eda-a3e8-2d5d75d09fa7
+  endDate: '2024-01-14T22:01:50.604215+00:00'
+  id: urn:uuid:cd1b9740-4702-4751-b488-5d4efd4b5cd0
   name: DANDI publish
   schemaKey: PublishActivity
-  startDate: '2024-01-14T20:08:50.707189+00:00'
+  startDate: '2024-01-14T22:01:50.604215+00:00'
   wasAssociatedWith:
-  - id: urn:uuid:0ed002f0-1c8a-4aae-962f-1e2d47000040
+  - id: urn:uuid:5eb01162-be10-44cd-980f-c641a7735001
     identifier: RRID:SCR_017571
     name: DANDI API
     schemaKey: Software
