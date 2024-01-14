@@ -6,8 +6,8 @@ access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  numberOfBytes: 0
-  numberOfFiles: 0
+  numberOfBytes: 1
+  numberOfFiles: 1
   schemaKey: AssetsSummary
 citation: Sprague, Daniel (2024) Brain-wide representations of behavior spanning multiple
   timescales and states in C. elegans (Version draft) [Data set]. DANDI archive. https://doi.org/10.80507/dandi.123456/0.123456.1234
@@ -20,7 +20,7 @@ contributor:
   - dcite:ContactPerson
   schemaKey: Person
 dateCreated: '2024-01-09T20:32:27.801335+00:00'
-datePublished: '2024-01-09T20:32:54.316850+00:00'
+datePublished: '2024-01-14T20:08:50.707189+00:00'
 description: "Dataset of 38 worms from 'Brain-wide representations of behavior spanning
   multiple timescales and states in C. elegans'. Each NWB file contains the NIR bright-field
   images, GCaMP images, and NeuroPAL structural images, ROI locations and IDs, labeled
@@ -35,13 +35,13 @@ manifestLocation:
 name: Brain-wide representations of behavior spanning multiple timescales and states
   in C. elegans
 publishedBy:
-  endDate: '2024-01-09T20:32:54.316850+00:00'
-  id: urn:uuid:ebc27a04-cc59-4d7c-98af-c8b48dd77ce4
+  endDate: '2024-01-14T20:08:50.707189+00:00'
+  id: urn:uuid:02fbecd3-c0c3-4eda-a3e8-2d5d75d09fa7
   name: DANDI publish
   schemaKey: PublishActivity
-  startDate: '2024-01-09T20:32:54.316850+00:00'
+  startDate: '2024-01-14T20:08:50.707189+00:00'
   wasAssociatedWith:
-  - id: urn:uuid:8a975955-fe04-4029-833e-4d2bdd1c3d55
+  - id: urn:uuid:0ed002f0-1c8a-4aae-962f-1e2d47000040
     identifier: RRID:SCR_017571
     name: DANDI API
     schemaKey: Software
