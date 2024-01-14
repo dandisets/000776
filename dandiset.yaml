@@ -6,9 +6,33 @@ access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  numberOfBytes: 1
-  numberOfFiles: 1
+  approach:
+  - name: behavioral approach
+    schemaKey: ApproachType
+  - name: microscopy approach; cell population imaging
+    schemaKey: ApproachType
+  dataStandard:
+  - identifier: RRID:SCR_015242
+    name: Neurodata Without Borders (NWB)
+    schemaKey: StandardsType
+  measurementTechnique:
+  - name: analytical technique
+    schemaKey: MeasurementTechniqueType
+  - name: behavioral technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 413902091982
+  numberOfFiles: 15
+  numberOfSubjects: 15
   schemaKey: AssetsSummary
+  species:
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_6239
+    name: Caenorhabditis elegans
+    schemaKey: SpeciesType
+  variableMeasured:
+  - PlaneSegmentation
+  - BehavioralEvents
+  - BehavioralTimeSeries
+  - ProcessingModule
 citation: Sprague, Daniel (2024) Brain-wide representations of behavior spanning multiple
   timescales and states in C. elegans (Version draft) [Data set]. DANDI archive. https://doi.org/10.80507/dandi.123456/0.123456.1234
 contributor:
@@ -20,7 +44,7 @@ contributor:
   - dcite:ContactPerson
   schemaKey: Person
 dateCreated: '2024-01-09T20:32:27.801335+00:00'
-datePublished: '2024-01-14T23:01:52.129137+00:00'
+datePublished: '2024-01-14T23:39:47.591442+00:00'
 description: "Dataset of 38 worms from 'Brain-wide representations of behavior spanning
   multiple timescales and states in C. elegans'. Each NWB file contains the NIR bright-field
   images, GCaMP images, and NeuroPAL structural images, ROI locations and IDs, labeled
@@ -35,13 +59,13 @@ manifestLocation:
 name: Brain-wide representations of behavior spanning multiple timescales and states
   in C. elegans
 publishedBy:
-  endDate: '2024-01-14T23:01:52.129137+00:00'
-  id: urn:uuid:dba55f1f-181b-489a-87b6-543f5bbc881c
+  endDate: '2024-01-14T23:39:47.591442+00:00'
+  id: urn:uuid:fa78648f-6c2e-45b3-a9d6-4169144c1ef5
   name: DANDI publish
   schemaKey: PublishActivity
-  startDate: '2024-01-14T23:01:52.129137+00:00'
+  startDate: '2024-01-14T23:39:47.591442+00:00'
   wasAssociatedWith:
-  - id: urn:uuid:81505c1f-2cec-4acf-847d-1050fa63c0c2
+  - id: urn:uuid:3e53cbab-9e3c-4e6d-a653-ef0780f07499
     identifier: RRID:SCR_017571
     name: DANDI API
     schemaKey: Software
