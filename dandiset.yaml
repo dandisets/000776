@@ -6,9 +6,33 @@ access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  numberOfBytes: 1
-  numberOfFiles: 1
+  approach:
+  - name: behavioral approach
+    schemaKey: ApproachType
+  - name: microscopy approach; cell population imaging
+    schemaKey: ApproachType
+  dataStandard:
+  - identifier: RRID:SCR_015242
+    name: Neurodata Without Borders (NWB)
+    schemaKey: StandardsType
+  measurementTechnique:
+  - name: analytical technique
+    schemaKey: MeasurementTechniqueType
+  - name: behavioral technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 1045238276907
+  numberOfFiles: 38
+  numberOfSubjects: 38
   schemaKey: AssetsSummary
+  species:
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_6239
+    name: Caenorhabditis elegans
+    schemaKey: SpeciesType
+  variableMeasured:
+  - PlaneSegmentation
+  - BehavioralEvents
+  - BehavioralTimeSeries
+  - ProcessingModule
 citation: Sprague, Daniel (2024) Brain-wide representations of behavior spanning multiple
   timescales and states in C. elegans (Version draft) [Data set]. DANDI archive. https://doi.org/10.80507/dandi.123456/0.123456.1234
 contributor:
