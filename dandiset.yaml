@@ -7,9 +7,9 @@ access:
   status: dandi:OpenAccess
 assetsSummary:
   approach:
-  - name: behavioral approach
-    schemaKey: ApproachType
   - name: microscopy approach; cell population imaging
+    schemaKey: ApproachType
+  - name: behavioral approach
     schemaKey: ApproachType
   dataStandard:
   - identifier: RRID:SCR_015242
@@ -20,7 +20,7 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: behavioral technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 990329496543
+  numberOfBytes: 990674030489
   numberOfFiles: 36
   numberOfSubjects: 36
   schemaKey: AssetsSummary
@@ -30,9 +30,9 @@ assetsSummary:
     schemaKey: SpeciesType
   variableMeasured:
   - PlaneSegmentation
-  - BehavioralEvents
-  - BehavioralTimeSeries
   - ProcessingModule
+  - BehavioralTimeSeries
+  - BehavioralEvents
 citation: Sprague, Daniel (2024) Brain-wide representations of behavior spanning multiple
   timescales and states in C. elegans (Version draft) [Data set]. DANDI archive. https://doi.org/10.80507/dandi.123456/0.123456.1234
 contributor:
