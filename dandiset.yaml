@@ -7,9 +7,9 @@ access:
   status: dandi:OpenAccess
 assetsSummary:
   approach:
-  - name: microscopy approach; cell population imaging
-    schemaKey: ApproachType
   - name: behavioral approach
+    schemaKey: ApproachType
+  - name: microscopy approach; cell population imaging
     schemaKey: ApproachType
   dataStandard:
   - identifier: RRID:SCR_015242
@@ -20,17 +20,17 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: behavioral technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 990674030489
-  numberOfFiles: 36
-  numberOfSubjects: 36
+  numberOfBytes: 985234151027
+  numberOfFiles: 37
+  numberOfSubjects: 37
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_6239
     name: Caenorhabditis elegans
     schemaKey: SpeciesType
   variableMeasured:
-  - PlaneSegmentation
   - ProcessingModule
+  - PlaneSegmentation
   - BehavioralTimeSeries
   - BehavioralEvents
 citation: Sprague, Daniel (2024) Brain-wide representations of behavior spanning multiple
