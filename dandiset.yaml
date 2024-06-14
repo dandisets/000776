@@ -10,15 +10,103 @@ assetsSummary:
   numberOfBytes: 0
   numberOfFiles: 0
   schemaKey: AssetsSummary
-citation: Sprague, Daniel (2024) Brain-wide representations of behavior spanning multiple
-  timescales and states in C. elegans (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000776/draft
+citation: Wan, Flossie; Atanas, Adam; Kim, Jungsoo; Wang, Ziyu; Bueno, Eric; Becker,
+  McCoy; Kang, Di; Park, Jungyeon; Kramer, Talya; Estrem, Cassi; Baskoylu, Saba; Dag,
+  Ugur; Kalogeropoulou, Elpiniki; Gomes, Matthw; Sprague, Daniel; Cohen, Netta; Mansinghka,
+  Vikash (2024) Brain-wide representations of behavior spanning multiple timescales
+  and states in C. elegans (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000776/draft
 contributor:
+- includeInCitation: true
+  name: Wan, Flossie
+  roleName:
+  - dcite:ProjectMember
+  schemaKey: Person
+- includeInCitation: true
+  name: Atanas, Adam
+  roleName:
+  - dcite:ProjectLeader
+  schemaKey: Person
+- includeInCitation: true
+  name: Kim, Jungsoo
+  roleName:
+  - dcite:ProjectMember
+  schemaKey: Person
+- includeInCitation: true
+  name: Wang, Ziyu
+  roleName:
+  - dcite:ProjectMember
+  schemaKey: Person
+- includeInCitation: true
+  name: Bueno, Eric
+  roleName:
+  - dcite:ProjectMember
+  schemaKey: Person
+- includeInCitation: true
+  name: Becker, McCoy
+  roleName:
+  - dcite:ProjectMember
+  schemaKey: Person
+- includeInCitation: true
+  name: Kang, Di
+  roleName:
+  - dcite:ProjectMember
+  schemaKey: Person
+- includeInCitation: true
+  name: Park, Jungyeon
+  roleName:
+  - dcite:ProjectMember
+  schemaKey: Person
+- includeInCitation: true
+  name: Kramer, Talya
+  roleName:
+  - dcite:ProjectMember
+  schemaKey: Person
+- includeInCitation: true
+  name: Estrem, Cassi
+  roleName:
+  - dcite:ProjectMember
+  schemaKey: Person
+- includeInCitation: true
+  name: Baskoylu, Saba
+  roleName:
+  - dcite:ProjectMember
+  schemaKey: Person
+- includeInCitation: true
+  name: Dag, Ugur
+  roleName:
+  - dcite:ProjectMember
+  schemaKey: Person
+- includeInCitation: true
+  name: Kalogeropoulou, Elpiniki
+  roleName:
+  - dcite:ProjectMember
+  schemaKey: Person
+- includeInCitation: true
+  name: Gomes, Matthw
+  roleName:
+  - dcite:ProjectMember
+  schemaKey: Person
 - affiliation: []
   email: daniel.y.sprague@gmail.com
   includeInCitation: true
   name: Sprague, Daniel
   roleName:
   - dcite:ContactPerson
+  schemaKey: Person
+- includeInCitation: true
+  name: Cohen, Netta
+  roleName:
+  - dcite:ProjectMember
+  schemaKey: Person
+- includeInCitation: true
+  name: Mansinghka, Vikash
+  roleName:
+  - dcite:ProjectMember
+  schemaKey: Person
+- includeInCitation: false
+  name: Flavell, Steve
+  roleName:
+  - dcite:ProjectMember
   schemaKey: Person
 dateCreated: '2024-01-09T20:32:27.801335+00:00'
 description: "Dataset of 38 worms from 'Brain-wide representations of behavior spanning
