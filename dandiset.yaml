@@ -38,7 +38,7 @@ citation: Atanas, Adam; Kim, Jungsoo; Wang, Ziyu; Bueno, Eric; Becker, McCoy; Ka
   Di; Park, Jungyeon; Kramer, Talya; Wan, Flossie; Baskoylu, Saba; Dag, Ugur; Kalogeropoulou,
   Elpiniki; Gomes, Matthew; Estrem, Cassi; Sprague, Daniel; Cohen, Netta; Mansinghka,
   Vikash (2024) Brain-wide representations of behavior spanning multiple timescales
-  and states in C. elegans (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000776/draft
+  and states in C. elegans (Version 0.240625.0022) [Data set]. DANDI archive. https://doi.org/10.48324/dandi.000776/0.240625.0022
 contributor:
 - includeInCitation: true
   name: Atanas, Adam
@@ -138,14 +138,15 @@ description: "Dataset of 38 worms from 'Brain-wide representations of behavior s
   multiple timescales and states in C. elegans'. Each NWB file contains the NIR bright-field
   images, GCaMP images, and NeuroPAL structural images, ROI locations and IDs, labeled
   activity traces, and behavioral information. \n"
+doi: 10.48324/dandi.000776/0.240625.0022
 ethicsApproval: []
-id: DANDI:000776/draft
+id: DANDI:000776/0.240625.0022
 identifier: DANDI:000776
 keywords: []
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/000776/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/000776/0.240625.0022/assets.yaml
 name: Brain-wide representations of behavior spanning multiple timescales and states
   in C. elegans
 protocol: []
@@ -166,6 +167,6 @@ repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.4
 studyTarget: []
-url: https://dandiarchive.org/dandiset/000776/draft
-version: draft
+url: https://dandiarchive.org/dandiset/000776/0.240625.0022
+version: 0.240625.0022
 wasGeneratedBy: []
