@@ -37,8 +37,9 @@ assetsSummary:
 citation: Atanas, Adam; Kim, Jungsoo; Wang, Ziyu; Bueno, Eric; Becker, McCoy; Kang,
   Di; Park, Jungyeon; Kramer, Talya; Wan, Flossie; Baskoylu, Saba; Dag, Ugur; Kalogeropoulou,
   Elpiniki; Gomes, Matthew; Estrem, Cassi; Sprague, Daniel; Cohen, Netta; Mansinghka,
-  Vikash (2024) Brain-wide representations of behavior spanning multiple timescales
-  and states in C. elegans (Version 0.240625.0022) [Data set]. DANDI archive. https://doi.org/10.48324/dandi.000776/0.240625.0022
+  Vikash; Flavell, Steve (2024) Brain-wide representations of behavior spanning multiple
+  timescales and states in C. elegans (Version 0.241009.1509) [Data set]. DANDI archive.
+  https://doi.org/10.48324/dandi.000776/0.241009.1509
 contributor:
 - includeInCitation: true
   name: Atanas, Adam
@@ -114,8 +115,7 @@ contributor:
   email: daniel.y.sprague@gmail.com
   includeInCitation: true
   name: Sprague, Daniel
-  roleName:
-  - dcite:ContactPerson
+  roleName: []
   schemaKey: Person
 - includeInCitation: true
   name: Cohen, Netta
@@ -127,37 +127,39 @@ contributor:
   roleName:
   - dcite:ProjectMember
   schemaKey: Person
-- includeInCitation: false
+- email: flavell@mit.edu
+  includeInCitation: true
   name: Flavell, Steve
   roleName:
   - dcite:ProjectMember
+  - dcite:ContactPerson
   schemaKey: Person
 dateCreated: '2024-01-09T20:32:27.801335+00:00'
-datePublished: '2024-06-25T00:22:56.563222+00:00'
+datePublished: '2024-10-09T15:09:37.183139+00:00'
 description: "Dataset of 38 worms from 'Brain-wide representations of behavior spanning
   multiple timescales and states in C. elegans'. Each NWB file contains the NIR bright-field
   images, GCaMP images, and NeuroPAL structural images, ROI locations and IDs, labeled
   activity traces, and behavioral information. \n"
-doi: 10.48324/dandi.000776/0.240625.0022
+doi: 10.48324/dandi.000776/0.241009.1509
 ethicsApproval: []
-id: DANDI:000776/0.240625.0022
+id: DANDI:000776/0.241009.1509
 identifier: DANDI:000776
 keywords: []
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://dandiarchive.s3.amazonaws.com/dandisets/000776/0.240625.0022/assets.yaml
+- https://dandiarchive.s3.amazonaws.com/dandisets/000776/0.241009.1509/assets.yaml
 name: Brain-wide representations of behavior spanning multiple timescales and states
   in C. elegans
 protocol: []
 publishedBy:
-  endDate: '2024-06-25T00:22:56.563222+00:00'
-  id: urn:uuid:dc2189e5-ede4-458e-8f87-594fa7059316
+  endDate: '2024-10-09T15:09:37.183139+00:00'
+  id: urn:uuid:68fb5291-c137-4242-9899-5eff85d24b46
   name: DANDI publish
   schemaKey: PublishActivity
-  startDate: '2024-06-25T00:22:56.563222+00:00'
+  startDate: '2024-10-09T15:09:37.183139+00:00'
   wasAssociatedWith:
-  - id: urn:uuid:b0b0b64b-4c3a-4cb9-a4dc-060bd4ca02ff
+  - id: urn:uuid:9dd3c491-6433-43a8-afc5-cf2aa8e22675
     identifier: RRID:SCR_017571
     name: DANDI API
     schemaKey: Software
@@ -167,6 +169,6 @@ repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.4
 studyTarget: []
-url: https://dandiarchive.org/dandiset/000776/0.240625.0022
-version: 0.240625.0022
+url: https://dandiarchive.org/dandiset/000776/0.241009.1509
+version: 0.241009.1509
 wasGeneratedBy: []
